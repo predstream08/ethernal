@@ -96,3 +96,6 @@ generated_imgs/
 # Vite build caches (regenerated on each build)
 landing/.vite/
 sentry-dashboard/.vite/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
