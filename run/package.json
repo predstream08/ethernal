@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node init && nodemon index.js",
     "test": "jest",
     "test:update": "jest -u",
     "test:handles": "jest  --detectOpenHandles",
@@ -17,7 +17,7 @@
   "engines": {
     "node": ">= 16.0.0"
   },
-  "author": "Antoine de Chevigné",
+  "author": "Antoine de Chevign\u00e9",
   "license": "Apache-2.0",
   "dependencies": {
     "@anthropic-ai/sdk": "^0.78.0",
